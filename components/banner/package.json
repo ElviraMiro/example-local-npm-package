@@ -1,7 +1,6 @@
 {
-    "name": "etorox-button",
-    "version": "0.0.1",
-    "description": "ETOROX - button",
+    "name": "elvira-banner": "0.0.1",
+    "description": "Elvira: banner",
     "main": "index.js",
     "author": "Elvira",
     "dependencies": {

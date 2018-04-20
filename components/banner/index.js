@@ -1,7 +1,7 @@
 import "./index.css";
 import React, { Component } from 'react';
 
-export class EtoroxButton extends Component {
+export class ElviraBanner extends Component {
   constructor(props) {
     super(props);
     console.log("PROPS", props);
@@ -9,9 +9,7 @@ export class EtoroxButton extends Component {
   
   render() {
     return (
-        <button className="etorox-button">
-            {this.props.buttonText?this.props.buttonText:"Button"}
-        </button>
+        <div className="banner">{this.props.text}</div>
     );
   }
 };
